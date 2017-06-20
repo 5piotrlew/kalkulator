@@ -1,11 +1,12 @@
 body {
     margin: auto;
-    box-sizing: border-box;
+    
     font-size: 70px;  
     text-align: center;
 }
 
 #kalkulator {
+    box-sizing: border-box;
     position: relative;
     width: 800px;
     height: 1000px;
@@ -14,15 +15,17 @@ body {
 }
 
 .wymiary {
-    
+    box-sizing: border-box;
     position: absolute;
     width: 200px;
     height: 200px;
 
     border: solid 2px black;
+    padding-top: 50px;
 }
 
 .przad {
+    box-sizing: border-box;
     position: absolute;
     width: 800px;
     height: 200px;
