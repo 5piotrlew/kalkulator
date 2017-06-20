@@ -1,36 +1,66 @@
 body {
     margin: auto;
     box-sizing: border-box;
-    font-size: 30px;
-    
-    
+    font-size: 70px;  
+    text-align: center;
 }
 
 #kalkulator {
-width: 800px;
+    position: relative;
+    width: 800px;
+    height: 1000px;
     border: solid 2px red;
     
-
-}
-
-#cyfry {
-    width: 600px;
-    border: solid 2px green;
-}
-
-#cyfry zero {
-    width: 200px;
-    border: solid 2px yellow;
-}
-
-#dzialania {
-    width: 200px;
-    border: solid 2px black;
 }
 
 .wymiary {
-    border: solid 2px brown;
+    
+    position: absolute;
     width: 200px;
-    float: left;
+    height: 200px;
+
+    border: solid 2px black;
 }
 
+.przad {
+    position: absolute;
+    width: 800px;
+    height: 200px;
+    top: 0;
+    border: solid 2px green;
+}
+
+
+.drzad {
+    top: 200px;    
+}
+
+.trzad {
+   top: 400px; 
+}
+
+.crzad {
+   top: 600px;
+}
+
+.piorzad {
+    top: 800px;
+}
+
+
+
+.pierwszy {
+    left: 0;
+}
+
+.drugi {
+    left: 200px;
+}
+
+.trzeci {
+    left: 400px;
+}
+
+.czwarty {
+    left: 600px;
+}
