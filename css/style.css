@@ -22,6 +22,7 @@ body {
 
     border: solid 2px black;
     padding-top: 50px;
+    background-color: aquamarine;
 }
 
 .przad {
@@ -31,8 +32,16 @@ body {
     height: 200px;
     top: 0;
     border: solid 2px green;
+    background-color: green;
 }
 
+.wymiary:hover {
+    background-color: mediumaquamarine;
+}
+
+.wymiary:focus {
+    background-color: red;
+}
 
 .drzad {
     top: 200px;    
