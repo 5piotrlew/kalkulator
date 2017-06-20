@@ -1,0 +1,36 @@
+body {
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 30px;
+    
+    
+}
+
+#kalkulator {
+width: 800px;
+    border: solid 2px red;
+    
+
+}
+
+#cyfry {
+    width: 600px;
+    border: solid 2px green;
+}
+
+#cyfry zero {
+    width: 200px;
+    border: solid 2px yellow;
+}
+
+#dzialania {
+    width: 200px;
+    border: solid 2px black;
+}
+
+.wymiary {
+    border: solid 2px brown;
+    width: 200px;
+    float: left;
+}
+
