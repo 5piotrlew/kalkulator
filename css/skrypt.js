@@ -33,6 +33,35 @@ function calc(wartosc) {
         case 0:
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + zero.innerHTML;
             break;
+        case '/':
+            wyswietlacz.innerHTML = wyswietlacz.innerHTML + dzielenie.innerHTML;
+            break;
+        case '*':
+            wyswietlacz.innerHTML = wyswietlacz.innerHTML + mnozenie.innerHTML;
+            break;
+        case '+':
+            wyswietlacz.innerHTML = wyswietlacz.innerHTML + dodawanie.innerHTML;
+            break;
+        case '-':
+            wyswietlacz.innerHTML = wyswietlacz.innerHTML + " " + odejmowanie.innerHTML + " ";
+            break;
+        case '=':
+            var c = document.getElementById("wyswietlacz").innerHTML;
+            wyswietlacz.innerHTML = (wyswietlacz.innerHTML + suma.innerHTML + c);
+            console.log(wyswietlacz);
+            console.log(wyswietlacz.innerHTML);
+            console.log(c);
+            wyswietlacz.innerHTML = c; 
+            console.log(wyswietlacz);
+            console.log(wyswietlacz.innerHTML);
+            console.log(c);
+            
+
+            
+            break;
+        case '.':
+            wyswietlacz.innerHTML = wyswietlacz.innerHTML + przecinek.innerHTML;
+            break;
 
     }
 }
@@ -84,4 +113,22 @@ dziewiec.addEventListener('click', function (e) {
 });
 zero.addEventListener('click', function (e) {
     calc(0);
+});
+dzielenie.addEventListener('click', function (e) {
+    calc('/');
+});
+mnozenie.addEventListener('click', function (e) {
+    calc('*');
+});
+dodawanie.addEventListener('click', function (e) {
+    calc('+');
+});
+odejmowanie.addEventListener('click', function (e) {
+    calc('-');
+});
+suma.addEventListener('click', function (e) {
+    calc('=');
+});
+przecinek.addEventListener('click', function (e) {
+    calc('.');
 });
