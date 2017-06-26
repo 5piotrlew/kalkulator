@@ -30,7 +30,7 @@ body {
     height: 100px;
     top: 0;
     border: solid 2px green;
-    background-color: green;
+    background-color: cadetblue;
     overflow: hidden;
     cursor: default;
 }
