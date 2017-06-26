@@ -1,5 +1,15 @@
 'use strict';
 
+/*BEGIN - skrypt blokujacy zaznaczanie tekstu*/
+
+document.onselectstart=new Function('return false'); 
+function ds(e){return false;} 
+function ra(){return true;} 
+document.onmousedown=ds; 
+document.onclick=ra; 
+
+/*END - skrypt blokujacy zaznaczanie tekstu*/
+
 function calc(wartosc) {
 
     switch (wartosc) {
