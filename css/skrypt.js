@@ -52,6 +52,9 @@ function calc(wartosc) {
         case '.':
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + przecinek.innerHTML;
             break;
+        case 'C':
+            wyswietlacz.innerHTML = "";
+            break;
 
     }
 }
@@ -73,6 +76,7 @@ var mnozenie = document.getElementById('mnozenie');
 var dodawanie = document.getElementById('dodawanie');
 var odejmowanie = document.getElementById('odejmowanie');
 var suma = document.getElementById('suma');
+var usuwacz = document.getElementById('usuwacz');
 
 jeden.addEventListener('click', function (e) {
     calc(1);
@@ -121,4 +125,7 @@ suma.addEventListener('click', function (e) {
 });
 przecinek.addEventListener('click', function (e) {
     calc('.');
+});
+usuwacz.addEventListener('click', function (e) {
+    calc('C');
 });
