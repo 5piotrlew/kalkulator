@@ -57,7 +57,6 @@ function calc(wartosc) {
             break;
         case '=':
             wyswietlacz.innerHTML = eval(wyswietlacz.innerHTML);
-
             break;
         case '.':
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + przecinek.innerHTML;
