@@ -46,18 +46,8 @@ function calc(wartosc) {
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + " " + odejmowanie.innerHTML + " ";
             break;
         case '=':
-            var c = document.getElementById("wyswietlacz").innerHTML;
-            wyswietlacz.innerHTML = (wyswietlacz.innerHTML + suma.innerHTML + c);
-            console.log(wyswietlacz);
-            console.log(wyswietlacz.innerHTML);
-            console.log(c);
-            wyswietlacz.innerHTML = c; 
-            console.log(wyswietlacz);
-            console.log(wyswietlacz.innerHTML);
-            console.log(c);
-            
+            wyswietlacz.innerHTML = eval(wyswietlacz.innerHTML);        
 
-            
             break;
         case '.':
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + przecinek.innerHTML;
