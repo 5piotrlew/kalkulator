@@ -46,7 +46,7 @@ function calc(wartosc) {
             wyswietlacz.innerHTML = wyswietlacz.innerHTML + " " + odejmowanie.innerHTML + " ";
             break;
         case '=':
-            wyswietlacz.innerHTML = eval(wyswietlacz.innerHTML);        
+            wyswietlacz.innerHTML = eval(wyswietlacz.innerHTML);
 
             break;
         case '.':
